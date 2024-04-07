@@ -20,7 +20,7 @@ export const Rightbar = () => {
         <Typography variant="h6" fontWeight={100}>
           Online Friends
         </Typography>
-        <AvatarGroup max={7}>
+        <AvatarGroup max={8} sx={{ justifyContent: 'start' }}>
           <Avatar
             alt="Remy Sharp"
             src="https://material-ui.com/static/images/avatar/1.jpg"

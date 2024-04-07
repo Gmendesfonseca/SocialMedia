@@ -16,7 +16,7 @@ import React, { useState } from 'react';
 function App() {
   const prefersDarkMode = useMediaQuery('(prefers-color-scheme: dark)');
   const [mode, setMode] = useState<PaletteMode>(
-    prefersDarkMode ? 'dark' : 'light',
+    prefersDarkMode ? 'light' : 'dark',
   );
 
   const darkTheme = createTheme({
