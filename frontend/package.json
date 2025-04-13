@@ -1,0 +1,41 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "vite",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/icons-material": "^7.0.2",
+    "@mui/material": "^7.0.2",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^13.0.0",
+    "@testing-library/user-event": "^13.2.1",
+    "@types/jest": "^27.0.1",
+    "@types/node": "^16.7.13",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@vitejs/plugin-react-swc": "^3.8.x",
+    "@vitest/coverage-v8": "3.0.9",
+    "@vitest/ui": "3.0.9",
+    "browser-sync": "^3.0.4",
+    "eslint": "^9.22.x",
+    "eslint-plugin-react-hooks": "^5.1.0-rc.x",
+    "eslint-plugin-react-refresh": "^0.4.x",
+    "globals": "^15.9.x",
+    "jsdom": "^26.0.x",
+    "typescript": "^5.8.x",
+    "typescript-eslint": "^8.7.x",
+    "vite": "^6.2.x",
+    "vitest": "^3.0.x"
+  }
+}
